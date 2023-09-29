@@ -6,17 +6,23 @@
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
-  "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "colors": {
+    "primary": "#06BCEE",
+    "light": "#81D7F7",
+    "dark": "#06A6D1",
+    "ultraLight": "#F2F8FB",
+    "ultraDark": "#0B0101",
     "background": {
-      "dark": "#090014"
+      "dark": "#111111"
     },
     "anchors": {
       "from": "#FF7F57",
       "to": "#9563FF"
     }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
   },
   "topbarLinks": [
     {
@@ -54,15 +60,27 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": [
+        "introduction",
+        "quickstart",
+        "development"
+      ]
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation"
+      ]
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "pages": [
+        "api-reference/authentication"
+      ]
     },
     {
       "group": "Endpoint Examples",
